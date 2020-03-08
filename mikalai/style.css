@@ -1,0 +1,103 @@
+body {
+	
+	font-family: Spartan;
+	font-size: 11px;
+	padding: 0;
+}
+
+#logo {
+	position: absolute;
+	top: 23px;
+	left: 20px;
+}
+
+#navbar {
+	background-color: rgb(45, 48, 57);
+    position: absolute;
+	width: 100vw;
+    height: 86px;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid rgb(73, 78, 96);
+}
+
+#navbar ul {
+	margin: 0  20px 0 0;
+	padding: 0;
+	float: right;
+	padding-left: 20px;
+}
+
+#navbar ul li {
+	line-height: 90px;
+	display: inline-block;
+	padding: 0 5px;
+	text-align: center;
+}
+
+
+#navbar ul li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navbar ul li a:hover {
+	color: rgb(244, 106, 103);
+}
+
+.separator:before {
+	content: "•";
+	color: rgb(73, 78, 96);
+}
+
+.separator {
+	width: 10px;
+	content: "#";
+	color: white;
+}
+
+#phones-container {
+	background-color: rgb(244, 106, 103);
+	position: absolute;
+	top: 90px;
+	left: 0;
+	width: 100vw;
+	height: 550px;
+	padding-top: 25px;
+}
+
+#phones-container img {
+	max-width: 100%;
+	margin: auto;
+	display: block;
+}
+
+#services {
+	background-color: rgb(242, 242, 242);
+	position: absolute;
+	top: 660px;
+	left: 0;
+	color: rgb(102, 109, 135);
+	padding: 40px 30px;
+}
+
+#services td img {
+	padding-top: 5px; 
+}
+
+h1 {
+	text-transform: capitalize;
+}
+
+h3 {
+	text-transform: capitalize;
+}
+
+table {
+	margin-top: 30px;
+}
+
+td {
+	vertical-align: top;
+}
